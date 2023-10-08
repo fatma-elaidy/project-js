@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    /* height: 1500px; */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.tab{
+    margin-top: 20px;
+}
+.price-tab,.total-style{
+    padding-top: 35px !important;
+    font-size: 25px;
+    color: grey;
+}
+.total-style{
+    color: rgb(46, 181, 46);
+}
+.td-style{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.quan-sty{
+    width: 100%;
+    height: 90px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.btn-style{
+    border-radius: 50%;
+    text-align: center;
+}
+.product-value{
+    font-size: 25px;
+    margin-top: 5px;
+}
+tfoot tr td{
+    width: 100%;
+    font-size: 25px;
+    color: rgb(22, 215, 22);
+    font-weight: 800;
+    letter-spacing: 2px;
+    /* padding: 15px 100px !important; */
+    text-align: center;
+    /* background-color: gray; */
+}
+/* cart-title style */
+.cart-title,.cart-title-fav{
+    font-size: 40px;
+    color: rgb(135, 135, 239);
+    margin-top: 100px;
+    text-align: center;
+    letter-spacing: 2px;
+    padding-top: 20px;
+}
+.cart-title-fav{
+    padding-bottom: 40px;
+    padding-top: 0px;
+}
+/* Swiper style  */
+
+.width-sty{
+    width: 350px;
+    /* height: 400px; */
+    position: relative;
+}
+.width-sty img{
+    width: 50%;
+    height: 200px;
+    display: flex;
+    margin: 20px auto;
+}
+.card-body h3{
+    font-size: 18px;
+}
+.card-body h3 span{
+
+    color: rgb(22, 22, 218);
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+.card-foot .icon{
+    font-size: 25px;
+    color: rgb(244, 46, 46);
+    cursor: pointer;
+    position: absolute;
+    right: 40px;
+    bottom: 35px;
+}
+/* 0 */
+.swiper-button-next::after,.swiper-button-prev::after{
+    color: #fff;
+    background-color: rgb(132, 132, 240);
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 0 0 auto;
+    font-size: 1rem;
+
+}
+.swiper-pagination-bullet{
+    width: 30px;
+    height: 5px;
+    border-radius: 0;
+    background-color: rgb(132, 132, 240);
+}
